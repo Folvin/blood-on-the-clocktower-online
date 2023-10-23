@@ -1,3 +1,15 @@
+## what is this
+
+this is a setup for nextjs with redux, tailwind and typescript and other libraries or implementation that i personally find usefull like:
+- @tailwindcss/typography and tailwindcss-animate
+- clsx and tailwind-merge (with a cn function to use both in src/lib/utils)
+- shadcn (with button and input component)
+- lucide-react
+- react-loading-skeleton
+
+there is a bit of setup on the redux folder with 2 custom hooks to use the redux hooks (useSelector and useDispatch) but with types. <br/>
+the store provider is passed on the layout.tsx inside the app folder using a custom component that can be found in the redux folder called provider.tsx
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
