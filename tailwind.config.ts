@@ -2,11 +2,11 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   theme: {
     container: {
       center: true,
@@ -16,6 +16,22 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        unlovable: ["var(--font-unlovable)"],
+        medieval: ["var(--font-medieval)"]
+      },
+      screens: {
+        xs: "480px",
+      },
+      gridTemplateColumns: {
+        autosm: "repeat(auto-fit, minmax(100px, 1fr))",
+        automd: "repeat(auto-fit, minmax(130px, 1fr))",
+        DEFAULT: "repeat(auto-fit, minmax(160px, 1fr))",
+        autolg: "repeat(auto-fit, minmax(200px, 1fr))",
+        autoxl: "repeat(auto-fit, minmax(260px, 1fr))",
+        "auto2xl": "repeat(auto-fit, minmax(320px, 1fr))",
+        "auto3xl": "repeat(auto-fit, minmax(380px, 1fr))",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -58,12 +74,12 @@ module.exports = {
       },
       keyframes: {
         "accordion-down": {
-          from: { height: 0 },
-          to: { height: "var(--radix-accordion-content-height)" },
+          from: {height: 0},
+          to: {height: "var(--radix-accordion-content-height)"},
         },
         "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: 0 },
+          from: {height: "var(--radix-accordion-content-height)"},
+          to: {height: 0},
         },
       },
       animation: {
@@ -73,4 +89,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
-}
+};
