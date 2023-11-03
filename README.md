@@ -21,12 +21,13 @@ the code is written by only me and it's supposed to be a personal project that i
 ## features
 
 - town square and grimoire
-- the 3 original edition + laissez un faire
-- custom script from the [script tool](https://script.bloodontheclocktower.com)
-- night sheets and reminders for the storyteller
-- a tutorial of how to play BOTC
-- save and load grimoire
-- custom characters creator
+- night sheets and reminders for the storyteller WIP V0.2
+- the 3 original edition + laissez un faire WIP V0.3
+- custom script from the [script tool](https://script.bloodontheclocktower.com) WIP V0.4
+- save and load grimoire WIP V1.0
+- custom characters creator WIP V1.1
+- a tutorial of how to play BOTC WIP V1.2
+- online interaction between storyteller/players WIP V2.0
 
 
 ## Copyrights
