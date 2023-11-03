@@ -33,6 +33,6 @@ the code is written by only me and it's supposed to be a personal project that i
 
 - [Blood On The Clocktower](https://bloodontheclocktower.com) is owned by [Steven Medway](https://www.linkedin.com/in/steven-medway-41726340) and the [Pandemonium Institute](https://bloodontheclocktower.com/about-us)
 - assets like character and editions images are owned by [Blood On The Clocktower](https://bloodontheclocktower.com) (not laissez un faire)
-- font for titles is from (here)[https://www.onlinewebfonts.com/fonts/LHF_Unlovable] the rest is from google fonts
+- font for titles is from [here](https://www.onlinewebfonts.com/fonts/LHF_Unlovable) the rest is from google fonts
 
 this project is provided free of charge and is not affiliated with the pandemonium institute in any way
