@@ -1,10 +1,10 @@
 ## what is this
 
-this is an unofficial online tool to play Blood On The Clocktower Online inspired by the [clocktower.online](https://clocktower.online) made by bra1n.
+this is an unofficial online tool to play Blood On The Clocktower Online inspired by the [clocktower.online](https://clocktower.online) made by [bra1n](https://github.com/bra1n).
 
 it is supposed to be a virtual grimoire for storyteller and for player.
 
-the code is written by only me and it's supposed to be a personal project that i made for hobby and maybe one day use it with my friend to play BOTC but it's not supposed to be anything "serious". if you want to play BOTC online there is an [app](https://online.bloodontheclocktower.com/login) made by the [Pandemonium Institute](https://bloodontheclocktower.com/about-us). here's the [patreon](https://www.patreon.com/botconline) to subscribe and here's the [app](https://online.bloodontheclocktower.com/login).
+the code is written only by me and it's supposed to be a personal project that i made for hobby and maybe one day use it with my friend to play BOTC but it's not supposed to be anything "serious". if you want to play BOTC online there is an [app](https://online.bloodontheclocktower.com/login) made by the [Pandemonium Institute](https://bloodontheclocktower.com/about-us). here's the [patreon](https://www.patreon.com/botconline) to subscribe and here's the [app](https://online.bloodontheclocktower.com/login).
 
 ## framework, libraries and packages
 
