@@ -29,7 +29,7 @@ const editions: EditionToParse[] = [
       "spy",
       "baron",
       "scarlet_woman",
-      "imp",
+      "imp",      
       "scapegoat",
       "gunslinger",
       "beggar",

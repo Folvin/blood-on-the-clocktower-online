@@ -16,21 +16,28 @@ module.exports = {
       },
     },
     extend: {
+      lineHeight: {
+        "2": "0.5rem",
+      },
+      fontSize: {
+        xxs: ["0.55rem", "0.8rem"],
+      },
       fontFamily: {
         unlovable: ["var(--font-unlovable)"],
-        medieval: ["var(--font-medieval)"]
+        medieval: ["var(--font-medieval)"],
       },
       screens: {
         xs: "480px",
       },
       gridTemplateColumns: {
+        autoxs: "repeat(auto-fit, minmax(80px, 1fr))",
         autosm: "repeat(auto-fit, minmax(100px, 1fr))",
         automd: "repeat(auto-fit, minmax(130px, 1fr))",
         DEFAULT: "repeat(auto-fit, minmax(160px, 1fr))",
         autolg: "repeat(auto-fit, minmax(200px, 1fr))",
         autoxl: "repeat(auto-fit, minmax(260px, 1fr))",
-        "auto2xl": "repeat(auto-fit, minmax(320px, 1fr))",
-        "auto3xl": "repeat(auto-fit, minmax(380px, 1fr))",
+        auto2xl: "repeat(auto-fit, minmax(320px, 1fr))",
+        auto3xl: "repeat(auto-fit, minmax(380px, 1fr))",
       },
       colors: {
         border: "hsl(var(--border))",

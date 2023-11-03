@@ -8,6 +8,7 @@ export class Edition {
   outsiders: Character[] = [];
   minions: Character[] = [];
   demons: Character[] = [];
+  travellers: Character[] = [];
   firstNightOrder: Character[] = [];
   otherNightOrder: Character[] = [];
   constructor({roles, meta}: {roles: string[]; meta?: Partial<Meta>}) {
@@ -21,6 +22,7 @@ export class Edition {
     this.outsiders = filteredCharacters.filter(v => v.category === Category.OUTSIDER);
     this.minions = filteredCharacters.filter(v => v.category === Category.MINION);
     this.demons = filteredCharacters.filter(v => v.category === Category.DEMON);
+    this.travellers = filteredCharacters.filter(v => v.category === Category.TRAVELER);
     this.firstNightOrder = getFirstNightOrder(filteredCharacters);
     this.otherNightOrder = getOtherNightOrder(filteredCharacters);
   }

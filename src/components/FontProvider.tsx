@@ -21,7 +21,7 @@ export function FontProvider({children}: PropsWithChildren) {
 
 function FontToggle({font, setFont}: {font: string; setFont: Dispatch<SetStateAction<string>>}) {
   return (
-    <div className="fixed bottom-14 right-2">
+    <div className="fixed bottom-14 right-2 z-50">
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button autoFocus variant="outline" size="icon">

@@ -5,8 +5,7 @@ import "./globals.css";
 import {cn} from "@/lib/utils";
 import "react-loading-skeleton/dist/skeleton.css";
 import {ReduxProvider} from "@/redux/provider";
-import {ThemeProvider} from "@/components/ThemeProvider";
-import {DarkModeToggle} from "@/components/DarkModeToggle";
+import {DarkModeToggle, ThemeProvider} from "@/components/ThemeProvider";
 import {FontProvider} from "@/components/FontProvider";
 
 const medieval = MedievalSharp({
@@ -32,14 +31,10 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
         suppressHydrationWarning
         className={cn("antialiased", "font-serif", medieval.variable, unlovable.variable)}>
         <ReduxProvider>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange>
-            <DarkModeToggle className="fixed bottom-2 right-2" />
+          <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
+            <DarkModeToggle />
             <FontProvider>
-              <div className="p-2 pt-8 min-h-screen flex flex-col">{children}</div>
+              <div className="p-2 pt-6 min-h-screen flex flex-col transform-gpu">{children}</div>
             </FontProvider>
           </ThemeProvider>
         </ReduxProvider>

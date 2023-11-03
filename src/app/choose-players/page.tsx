@@ -1,5 +1,6 @@
 import {InputPlayer} from "@/components/InputPlayer";
 import {PlayerList} from "@/components/PlayerList";
+import { SetupSheet } from "@/components/SetupSheet";
 
 export default function () {
   return (
@@ -17,6 +18,10 @@ export default function () {
           <h3 className="text-lg mb-2">Player List</h3>
           <PlayerList />
         </div>
+      </div>
+
+      <div className="hidden lg:block fixed left-8 top-8">
+        <SetupSheet />
       </div>
     </div>
   );
